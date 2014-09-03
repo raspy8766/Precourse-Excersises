@@ -1,0 +1,3 @@
+Ross = {height: "6' 2''", weight: "220", eyes: "brown"}
+
+p Ross.has_value?("brown")
