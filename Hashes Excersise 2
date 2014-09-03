@@ -1,0 +1,7 @@
+Ross = {height: "6' 2''", weight: "220", eyes: "brown"}
+
+Ross.each_key { |k| p "#{k}"}
+Ross.each_value { |v| p "#{v}"}
+
+
+Ross.each { |k, v| p "My #{k} is #{v}"}
