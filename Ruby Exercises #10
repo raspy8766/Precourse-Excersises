@@ -1,0 +1,4 @@
+#Yes, hash values can be compiled into an array. Yes, you may also compile hashes into an array. 
+For example, if your'e describing a person and you want to have a hash that describes their physical appearance,
+and also a hash for their emotional characteristics. You can compile these hashes then send it to an array under
+the name of the person.
