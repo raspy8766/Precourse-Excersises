@@ -1,0 +1,23 @@
+#a)
+a = 12
+
+b = a.next
+
+puts b
+
+#b)
+a = 12
+	
+	def mod2
+		a = 20
+	end
+
+mod2
+puts a
+
+#c)
+z = "hello"
+
+z.delete! "h"
+
+puts z
