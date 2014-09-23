@@ -1,0 +1,4 @@
+  #An error occurs because the inner can access the outer but not vice versa.
+  
+  #The same principle applies to the nested methods. The method that is nested may pull variables from the outer scope,
+  #but the outer scoped method cannot pull from the nested method's variables.
