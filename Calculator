@@ -1,0 +1,26 @@
+puts "Please input your first number"
+num1 = gets.chomp.to_i
+
+puts "Please inputs your second number"
+num2 = gets.chomp.to_i
+
+p "Choose an operator (1 = addition, 2 = subtraction, 3 = multiplication, 4 = division"
+operator = gets.chomp.to_i
+
+until operator == 1 || operator == 2 || operator == 3 || operator == 4
+
+	p "--------------Invalid Selection--------------"
+	p "Try again: (1 = addition, 2 = subtraction, 3 = multiplication, 4 = division"
+	operator = gets.chomp.to_i
+end	
+
+
+if operator == 1 
+	puts "the sum of the numbers is: #{num1 + num2}"
+elsif operator == 2
+	puts "the difference of the numbers is: #{num1 - num2}"
+elsif operator == 3
+	puts "the product of the numbers is: #{num1 * num2}"
+else
+	puts "the quotient of the numbers is: #{num1 / num2.to_f}"
+end
