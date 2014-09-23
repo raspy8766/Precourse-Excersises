@@ -1,0 +1,16 @@
+arr = [1, 2, 3, 4, 5]
+
+def no_mutate(a)
+	a.last
+end
+
+no_mutate(arr)
+p arr
+
+def mutate(a)
+	a.shift
+end
+
+mutate(arr)
+
+p arr
